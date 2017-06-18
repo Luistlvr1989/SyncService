@@ -21,7 +21,7 @@ public class SyncManager {
         syncMap.put(SyncType.ENTRIES, new EntriesSync(context));
     }
 
-    public synchronized void doSync(@NonNull SyncType syncType) {
+    public void doSync(@NonNull SyncType syncType) {
         syncMap.get(syncType).sync();
     }
 }

@@ -21,7 +21,7 @@ public abstract class AbsSync {
     /**
      * Syncs the data with the cloud
      */
-    public void sync() {
+    public synchronized void sync() {
         SyncEvent.send(getSyncType(), SyncStatus.IN_PROGRESS);
         post(context);
     }

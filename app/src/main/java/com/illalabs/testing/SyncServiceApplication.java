@@ -10,7 +10,7 @@ import timber.log.Timber;
  * Created by hei on 17/06/17.
  * Application for the app
  */
-public class TestingApplication extends Application {
+public class SyncServiceApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
