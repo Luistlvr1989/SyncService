@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="app_name">SyncManager</string>
+    <string name="message.button.send">Send</string>
+
+</resources>
